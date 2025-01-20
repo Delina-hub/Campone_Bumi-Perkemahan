@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumi Perkemahan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        .hero h2 {
+            font-size: 2.5em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .pricing-table {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .pricing-table th, .pricing-table td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .pricing-table th {
+            background-color: #007BFF;
+            color: white;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bumi Perkemahan</h1>
+</header>
+
+<div class="hero">
+    <h2>Selamat Datang di Bumi Perkemahan Kami</h2>
+</div>
+
+<section>
+    <h3>Galeri</h3>
+    <div class="gallery">
+        <img src="camp1.jpg" alt="Camp 1">
+        <img src="camp2.jpg" alt="Camp 2">
+        <img src="camp3.jpg" alt="Camp 3">
+    </div>
+</section>
+
+<section>
+    <h3>Harga dan Keuntungan</h3>
+    <table class="pricing-table">
+        <thead>
+            <tr>
+                <th>Paket</th>
+                <th>Harga</th>
+                <th>Keuntungan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harian</td>
+                <td>Rp 100.000</td>
+                <td>1 Tenda, 2 Orang, Peralatan Dasar</td>
+            </tr>
+            <tr>
+                <td>Mingguan</td>
+                <td>Rp 600.000</td>
+                <td>1 Tenda, 4 Orang, Peralatan Lengkap</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h3>Kontak Kami</h3>
+    <form class="contact-form">
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="5" placeholder="Pesan Anda"></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Bumi Perkemahan. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
